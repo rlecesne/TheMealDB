@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0927AA752B003830007DA205 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0927AA742B003830007DA205 /* HomeView.swift */; };
+		0927AA7B2B003AC6007DA205 /* FindMealByIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0927AA7A2B003AC6007DA205 /* FindMealByIDView.swift */; };
+		0927AA852B01442B007DA205 /* DessertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0927AA842B01442B007DA205 /* DessertView.swift */; };
+		0927AA872B0146A2007DA205 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0927AA862B0146A2007DA205 /* Meal.swift */; };
+		0927AA892B015705007DA205 /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0927AA882B015705007DA205 /* MealView.swift */; };
+		0927AA8B2B01612C007DA205 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0927AA8A2B01612C007DA205 /* Services.swift */; };
 		092BB2982B00326B0044A043 /* TheMealDBApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092BB2972B00326B0044A043 /* TheMealDBApp.swift */; };
 		092BB29A2B00326B0044A043 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092BB2992B00326B0044A043 /* ContentView.swift */; };
 		092BB29C2B0032710044A043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092BB29B2B0032710044A043 /* Assets.xcassets */; };
@@ -33,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0927AA742B003830007DA205 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0927AA7A2B003AC6007DA205 /* FindMealByIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMealByIDView.swift; sourceTree = "<group>"; };
+		0927AA842B01442B007DA205 /* DessertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertView.swift; sourceTree = "<group>"; };
+		0927AA862B0146A2007DA205 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		0927AA882B015705007DA205 /* MealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealView.swift; sourceTree = "<group>"; };
+		0927AA8A2B01612C007DA205 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		092BB2942B00326B0044A043 /* TheMealDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMealDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		092BB2972B00326B0044A043 /* TheMealDBApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMealDBApp.swift; sourceTree = "<group>"; };
 		092BB2992B00326B0044A043 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +112,12 @@
 				092BB29B2B0032710044A043 /* Assets.xcassets */,
 				092BB2A02B0032710044A043 /* Info.plist */,
 				092BB29D2B0032710044A043 /* Preview Content */,
+				0927AA742B003830007DA205 /* HomeView.swift */,
+				0927AA7A2B003AC6007DA205 /* FindMealByIDView.swift */,
+				0927AA842B01442B007DA205 /* DessertView.swift */,
+				0927AA862B0146A2007DA205 /* Meal.swift */,
+				0927AA882B015705007DA205 /* MealView.swift */,
+				0927AA8A2B01612C007DA205 /* Services.swift */,
 			);
 			path = TheMealDB;
 			sourceTree = "<group>";
@@ -259,7 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0927AA752B003830007DA205 /* HomeView.swift in Sources */,
 				092BB29A2B00326B0044A043 /* ContentView.swift in Sources */,
+				0927AA852B01442B007DA205 /* DessertView.swift in Sources */,
+				0927AA892B015705007DA205 /* MealView.swift in Sources */,
+				0927AA7B2B003AC6007DA205 /* FindMealByIDView.swift in Sources */,
+				0927AA8B2B01612C007DA205 /* Services.swift in Sources */,
+				0927AA872B0146A2007DA205 /* Meal.swift in Sources */,
 				092BB2982B00326B0044A043 /* TheMealDBApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

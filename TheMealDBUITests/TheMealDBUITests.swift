@@ -2,7 +2,7 @@
 //  TheMealDBUITests.swift
 //  TheMealDBUITests
 //
-//  Created by Madison Perniciaro on 11/11/23.
+//  Created by Rachel Lecesne on 11/11/23.
 //
 
 import XCTest
@@ -22,13 +22,15 @@ class TheMealDBUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
+    func testHomePage() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
-
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let home = app.staticTexts.element
+         
+        XCTAssert(home.exists)
+        XCTAssertEqual(home.label, "Welcome to the Home Page")
     }
 
     func testLaunchPerformance() throws {

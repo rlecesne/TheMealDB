@@ -2,7 +2,7 @@
 //  TheMealDBApp.swift
 //  TheMealDB
 //
-//  Created by Madison Perniciaro on 11/11/23.
+//  Created by Rachel Lecesne on 11/11/23.
 //
 
 import SwiftUI

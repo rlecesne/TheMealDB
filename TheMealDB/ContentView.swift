@@ -2,15 +2,27 @@
 //  ContentView.swift
 //  TheMealDB
 //
-//  Created by Madison Perniciaro on 11/11/23.
+//  Created by Rachel Lecesne on 11/11/23.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            HomeView()
+                    .tabItem {
+                        Label("Home",systemImage: "star.fill")
+                    }
+            DessertView()
+                .tabItem {
+                    Label("Desserts",systemImage: "star.fill")
+                    }
+            FindMealByIDView()
+                .tabItem {
+                    Label("Find Meal By ID",systemImage: "star.fill")
+                    }
+        }
     }
 }
 
