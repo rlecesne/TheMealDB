@@ -64,25 +64,45 @@ struct MealView: View {
     private func fetchIngredients() {
         var ingredients: [String] = []
         for meal in meals {
+            ingredients.append(meal.strMeasure1)
             ingredients.append(meal.strIngredient1)
+            ingredients.append(meal.strMeasure2)
             ingredients.append(meal.strIngredient2)
+            ingredients.append(meal.strMeasure3)
             ingredients.append(meal.strIngredient3)
+            ingredients.append(meal.strMeasure4)
             ingredients.append(meal.strIngredient4)
+            ingredients.append(meal.strMeasure5)
             ingredients.append(meal.strIngredient5)
+            ingredients.append(meal.strMeasure6)
             ingredients.append(meal.strIngredient6)
+            ingredients.append(meal.strMeasure7)
             ingredients.append(meal.strIngredient7)
+            ingredients.append(meal.strMeasure8)
             ingredients.append(meal.strIngredient8)
+            ingredients.append(meal.strMeasure9)
             ingredients.append(meal.strIngredient9)
+            ingredients.append(meal.strMeasure10)
             ingredients.append(meal.strIngredient10)
+            ingredients.append(meal.strMeasure11)
             ingredients.append(meal.strIngredient11)
+            ingredients.append(meal.strMeasure12)
             ingredients.append(meal.strIngredient12)
+            ingredients.append(meal.strMeasure13)
             ingredients.append(meal.strIngredient13)
+            ingredients.append(meal.strMeasure14)
             ingredients.append(meal.strIngredient14)
+            ingredients.append(meal.strMeasure15)
             ingredients.append(meal.strIngredient15)
+            ingredients.append(meal.strMeasure16)
             ingredients.append(meal.strIngredient16)
+            ingredients.append(meal.strMeasure17)
             ingredients.append(meal.strIngredient17)
+            ingredients.append(meal.strMeasure18)
             ingredients.append(meal.strIngredient18)
+            ingredients.append(meal.strMeasure19)
             ingredients.append(meal.strIngredient19)
+            ingredients.append(meal.strMeasure20)
             ingredients.append(meal.strIngredient20)
         }
         // get rid of any empty values
@@ -92,7 +112,11 @@ struct MealView: View {
         var index = 0
         for i in ingredients {
             if index < ingredients.count - 1 {
-                self.ingredientStr += i + ", "
+                 if index%2 != 0 {
+                    self.ingredientStr += i + "\n"
+                 } else {
+                    self.ingredientStr += i + " of "
+                 }
             } else {
                 self.ingredientStr += i
             }
